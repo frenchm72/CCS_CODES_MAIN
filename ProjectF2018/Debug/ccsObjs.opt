@@ -1,0 +1,1 @@
+"./MainProject2018.obj" "./keypad.obj" "./lcd.obj" "./led.obj" "./motor.obj" "./promain.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "../msp432p401r.cmd" -llibc.a 
