@@ -27,9 +27,9 @@ void main(void)
 	initLCD();
 
 	char nam[7] = {'M', 'A', 'T', 'H', 'E', 'W',};
-    char lasnam[6] = {'F','R', 'E', 'N', 'C', 'H',};
-    char class[3] = {'E','G','R',};
-    char sec[3] = {'2','2','6',};
+   // char lasnam[6] = {'F','R', 'E', 'N', 'C', 'H',};
+    //char class[3] = {'E','G','R',};
+    //char sec[3] = {'2','2','6',};
     delay_ms(100);
 
     comWrit(0x85);//address  05
@@ -40,7 +40,7 @@ void main(void)
         dataWrit(nam[i]);
         delay_ms(100);
     }
-    comWrit(0xC5);//address  45
+   /* comWrit(0xC5);//address  45
      delay_micro(100);
     for(i=0;i<6;i++)
     {
@@ -60,7 +60,7 @@ void main(void)
     {
         dataWrit(sec[i]);
         delay_ms(100);
-    }
+    }*/
     comWrit(0x0C);
     delay_micro(100);
 
